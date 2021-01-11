@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+html,body {
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(45deg, #8e2de2,#4a00e0);
+}
+
+section.content {
+    background: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 10px 25px;
+    width: 350px;
+    min-height: 40vh;
+    border-radius: 10px;
+    border: 0;
+}
+
+section.content .texto h2{
+    margin-top: 20px;
+}
+
+section.content .texto div {
+    height: 5px;
+    width: 30px;
+    background: indigo;
+    margin-left: 2px;
+}
+
+section.content input{
+    margin: 20px 0;
+    width: 300px;
+    display: block;
+    border: 0;
+    font-weight: 600;
+}
+
+section.content input::placeholder {
+    color: rgb(209, 209, 209);
+}
+
+section.content input[type=text],
+section.content input[type=password] {
+    border-bottom: 1px solid violet;
+}
+
+
+section.content input:focus {
+    outline: 0;
+    border-bottom: 2px solid indigo;
+}
+
+section.content input[type=submit] {
+    background: linear-gradient(45deg, #8e2de2,#4a00e0);
+    height: 40px;
+    border-radius: 7px;
+    color: rgb(172, 172, 172);
+    cursor: pointer;
+}
+
+section.content button{
+    width: 300px;
+    height: 40px;
+    border: 0;
+    border-radius: 7px;
+    color: rgb(172, 172, 172);
+    background: #3b5998;
+    cursor: pointer;
+}
+
+section.content button:nth-of-type(2) {
+    margin-top: 15px;
+    background: #1DA1F2;
+}
